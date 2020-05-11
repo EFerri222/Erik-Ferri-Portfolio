@@ -1,0 +1,9 @@
+#landing {
+    background-image: url("../images/background.jpeg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.bg-custom {
+    background-color: rgba(25,25,122, 0.5);
+}
