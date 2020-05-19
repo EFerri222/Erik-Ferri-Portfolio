@@ -7,7 +7,7 @@ body {
     background-color: rgba(25,25,122, 0.5);
 }
 
-.card {
+.card, .list-group-item {
     color: black;
 }
 
@@ -29,4 +29,12 @@ body {
 
 #profile-pic {
     width: 100%;
+}
+
+#projects {
+    background-color: grey;
+}
+
+#contact {
+    height: 100vh;
 }
