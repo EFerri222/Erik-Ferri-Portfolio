@@ -1,6 +1,14 @@
+body {
+    background-color: black;
+    color: white;
+}
+
 #landing {
     background-image: url("../images/background.jpeg");
+    background-position: center;
     background-size: cover;
+    background-attachment: fixed;
+    color: white;
     height: 100vh;
 }
 
