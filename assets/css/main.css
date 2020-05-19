@@ -7,6 +7,10 @@ body {
     background-color: rgba(25,25,122, 0.5);
 }
 
+.card {
+    color: black;
+}
+
 #landing {
     background-image: url("../images/background.jpeg");
     background-position: center;
@@ -17,7 +21,10 @@ body {
 }
 
 #quote {
+    height: 50vh;
     background-image: url("../images/quote.png");
+    background-position: center;
+    background-attachment: fixed;
 }
 
 #profile-pic {
