@@ -3,6 +3,10 @@ body {
     color: white;
 }
 
+.bg-custom {
+    background-color: rgba(25,25,122, 0.5);
+}
+
 #landing {
     background-image: url("../images/background.jpeg");
     background-position: center;
@@ -12,6 +16,6 @@ body {
     height: 100vh;
 }
 
-.bg-custom {
-    background-color: rgba(25,25,122, 0.5);
+#profile-pic {
+    width: 100%;
 }
