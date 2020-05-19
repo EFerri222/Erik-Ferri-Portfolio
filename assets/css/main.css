@@ -16,6 +16,10 @@ body {
     height: 100vh;
 }
 
+#quote {
+    background-image: url("../images/quote.png");
+}
+
 #profile-pic {
     width: 100%;
 }
