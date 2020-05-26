@@ -63,11 +63,6 @@
     <!-- INTRO SECTION START -->
     <section id="intro">
         <div class="container pt-4 pt-md-5 pb-4 text-center">
-            <div class="row">
-                <div class="col">
-                    <h1>"You can learn something from everybody."</h1>
-                </div>
-            </div>
             <div class="row mt-3">
                 <div class="col-md-4">
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -104,7 +99,7 @@
                 <div class="col-md-8 d-flex flex-column justify-content-center mt-3 mt-md-0">
                     <h5>ABOUT ME</h5>
                     <p>
-                        I am Erik Ferri and my goal is to become a full-stack web developer and launch a fulfilling career. I feel like challenging your brain is important to growth, and programming surely does that. There's always something to learn and it's always changing. Also, a lot of people don't realize how much creativity can go into programming. You can create whatever you want!
+                        Hello, my name is Erik Ferri and I am a full stack web developer. I'm originally from Alexandria, Virginia living in the city of Richmond, VA. I have studied various technologies involving front-end and back-end web development, and I also love learning more about new technologies.
                         <br><br>
                         <i>“Have no fear of perfection—you'll never reach it.”</i>
                     </p>
@@ -137,20 +132,72 @@
                     <div class="card mx-auto mx-md-0 my-3" style="width: 18rem;">
                         <img class="card-img-top" src="assets/images/yelpcamp.jpg" alt="YelpCamp">
                         <div class="card-body">
-                          <h5 class="card-title">YelpCamp</h5>
-                          <p class="card-text">View, review, or create campgrounds!</p>
-                          <a href="https://tranquil-scrubland-25985.herokuapp.com/" class="btn btn-primary" target="blank">Project Link</a>
+                            <h5 class="card-title">YelpCamp</h5>
+                            <p class="card-text">View, review, or create campgrounds!</p>
+                            <a href="https://tranquil-scrubland-25985.herokuapp.com/" class="btn btn-primary" target="blank">Project Link</a>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#YelpCampModal">
+                                More Info
+                            </button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="YelpCampModal" tabindex="-1" role="dialog" aria-labelledby="YelpCampModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="YelpCampModalLabel">YelpCamp Tech Info</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                    Technologies used:<br>
+                                    <br>
+                                    -Front End: HTML, CSS, Bootstrap 4, JavaScript<br>
+                                    -Back End: Express.js, Mongo.db<br>
+                                    -Authentication: Passport.js<br>
+                                    <br>
+                                    Dependencies: body-parser, connect-flash, ejs, express, express-session, method-override, mongoose, passport, passport-local, passport-local-mongoose
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
                         </div>
-                      </div>
+                    </div>
                 </div>
                 <!-- RGB Color Game -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="card mx-auto mx-md-0 my-3" style="width: 18rem;">
                         <img class="card-img-top" src="assets/images/rgbcolorgame.png" alt="RGB Color Game">
                         <div class="card-body">
-                          <h5 class="card-title">RGB Color Game</h5>
-                          <p class="card-text">Guess which square is the color of the RGB value displayed.</p>
-                          <a href="https://eferri222.github.io/Color-Game/" class="btn btn-primary" target="blank">Project Link</a>
+                            <h5 class="card-title">RGB Color Game</h5>
+                            <p class="card-text">Guess which square is the color of the RGB value displayed.</p>
+                            <a href="https://eferri222.github.io/Color-Game/" class="btn btn-primary" target="blank">Project Link</a>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#RGBColorGameModal">
+                                More Info
+                            </button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="RGBColorGameModal" tabindex="-1" role="dialog" aria-labelledby="RGBColorGameModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="RGBColorGameModalLabel">RGB Color Game Tech Info</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                    Technologies used: HTML, CSS, JavaScript<br>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -159,9 +206,34 @@
                     <div class="card mx-auto mx-md-0 my-3" style="width: 18rem;">
                         <img class="card-img-top" src="assets/images/museumofflowers.jpg" alt="Museum of Flowers">
                         <div class="card-body">
-                          <h5 class="card-title">Museum of Flowers</h5>
-                          <p class="card-text">Visit this fictitious museums's website.</p>
-                          <a href="https://eferri222.github.io/Museum-Of-Flowers/" class="btn btn-primary" target="blank">Project Link</a>
+                            <h5 class="card-title">Museum of Flowers</h5>
+                            <p class="card-text">Visit this fictitious museums's website.</p>
+                            <a href="https://eferri222.github.io/Museum-of-Flowers/" class="btn btn-primary" target="blank">Project Link</a>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#MuseumOfFlowersModal">
+                                More Info
+                            </button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="MuseumOfFlowersModal" tabindex="-1" role="dialog" aria-labelledby="MuseumOfFlowersModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="MuseumOfFlowersModalLabel">Museum of Flowers Tech Info</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                    Technologies used: HTML, CSS, Bootstrap 4, JavaScript<br>
+                                    <br>
+                                    gModal library used for dynamic modals
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
                         </div>
                       </div>
                 </div>
@@ -170,9 +242,34 @@
                     <div class="card mx-auto mx-md-0 my-3" style="width: 18rem;">
                         <img class="card-img-top" src="assets/images/circles.png" alt="Circles">
                         <div class="card-body">
-                          <h5 class="card-title">Circle Beats</h5>
-                          <p class="card-text">Press any letter key to see an animation and hear a sound.</p>
-                          <a href="https://eferri222.github.io/Patatap-Clone/" class="btn btn-primary" target="blank">Project Link</a>
+                            <h5 class="card-title">Circle Beats</h5>
+                            <p class="card-text">Press any letter key to see an animation and hear a sound.</p>
+                            <a href="https://eferri222.github.io/Patatap-Clone/" class="btn btn-primary" target="blank">Project Link</a>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#CircleBeatsModal">
+                                More Info
+                            </button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="CircleBeatsModal" tabindex="-1" role="dialog" aria-labelledby="CircleBeatsModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="CircleBeatsModalLabel">Circle Beats Tech Info</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                    Technologies used: HTML, CSS, JavaScript<br>
+                                    <br>
+                                    Libraries used: Paper.js, Howler.js
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
                         </div>
                       </div>
                 </div>
@@ -181,9 +278,32 @@
                     <div class="card mx-auto mx-md-0 my-3" style="width: 18rem;">
                         <img class="card-img-top" src="assets/images/wordguessgame.png" alt="Word Guess Game">
                         <div class="card-body">
-                          <h5 class="card-title">Word Guess Game</h5>
-                          <p class="card-text">"Who's That Pok&eacute;mon?" Hangman game.</p>
-                          <a href="https://eferri222.github.io/Word-Guess-Game/" class="btn btn-primary" target="blank">Project Link</a>
+                            <h5 class="card-title">Word Guess Game</h5>
+                            <p class="card-text">"Who's That Pok&eacute;mon?" Hangman game.</p>
+                            <a href="https://eferri222.github.io/Word-Guess-Game/" class="btn btn-primary" target="blank">Project Link</a>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#WordGuessGameModal">
+                                More Info
+                            </button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="WordGuessGameModal" tabindex="-1" role="dialog" aria-labelledby="WordGuessGameModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="WordGuessGameModalLabel">Word Guess Game Tech Info</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                    Technologies used: HTML, CSS, Bootstrap 4, JavaScript<br>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
                         </div>
                       </div>
                 </div>
@@ -192,9 +312,32 @@
                     <div class="card mx-auto mx-md-0 my-3" style="width: 18rem;">
                         <img class="card-img-top" src="assets/images/crystalcollector.jpg" alt="Crystal Collector">
                         <div class="card-body">
-                          <h5 class="card-title">Crystal Collector</h5>
-                          <p class="card-text">Click on crystals and try to reach the target number.</p>
-                          <a href="https://eferri222.github.io/Crystal-Collector/" class="btn btn-primary" target="blank">Project Link</a>
+                            <h5 class="card-title">Crystal Collector</h5>
+                            <p class="card-text">Click on crystals and try to reach the target number.</p>
+                            <a href="https://eferri222.github.io/Crystal-Collector/" class="btn btn-primary" target="blank">Project Link</a>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#CrystalCollectorModal">
+                                More Info
+                            </button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="CrystalCollectorModal" tabindex="-1" role="dialog" aria-labelledby="CrystalCollectorModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="CrystalCollectorModalLabel">Crystal Collector Tech Info</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                    Technologies used: HTML, CSS, JavaScript, jQuery<br>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
                         </div>
                       </div>
                 </div>
@@ -203,9 +346,32 @@
                     <div class="card mx-auto mx-md-0 my-3" style="width: 18rem;">
                         <img class="card-img-top" src="assets/images/lostinspace.jpg" alt="Lost in Space">
                         <div class="card-body">
-                          <h5 class="card-title">Lost in Space</h5>
-                          <p class="card-text">Learn more about our Solar System and Star Wars planets!</p>
-                          <a href="https://thedern.github.io/fireballsproject1/" class="btn btn-primary" target="blank">Project Link</a>
+                            <h5 class="card-title">Lost in Space</h5>
+                            <p class="card-text">Learn more about our Solar System and Star Wars planets!</p>
+                            <a href="https://thedern.github.io/fireballsproject1/" class="btn btn-primary" target="blank">Project Link</a>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#LostInSpaceModal">
+                                More Info
+                            </button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="LostInSpaceModal" tabindex="-1" role="dialog" aria-labelledby="LostInSpaceModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="LostInSpaceModalLabel">Lost in Space Tech Info</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                    Technologies used: HTML, CSS, Bootstrap 4, JavaScript, jQuery<br>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
                         </div>
                       </div>
                 </div>
@@ -214,9 +380,32 @@
                     <div class="card mx-auto mx-md-0 my-3" style="width: 18rem;">
                         <img class="card-img-top" src="assets/images/todo.jpg" alt="To-Do List App">
                         <div class="card-body">
-                          <h5 class="card-title">To-Do List App</h5>
-                          <p class="card-text">Add, remove, and cross off to-do items.</p>
-                          <a href="https://eferri222.github.io/To-Do-App/" class="btn btn-primary" target="blank">Project Link</a>
+                            <h5 class="card-title">To-Do List App</h5>
+                            <p class="card-text">Add, remove, and cross off to-do items.</p>
+                            <a href="https://eferri222.github.io/To-Do-App/" class="btn btn-primary" target="blank">Project Link</a>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ToDoListAppModal">
+                                More Info
+                            </button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="ToDoListAppModal" tabindex="-1" role="dialog" aria-labelledby="ToDoListAppModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="ToDoListAppModalLabel">To-Do List App Tech Info</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                    Technologies used: HTML, CSS, JavaScript, jQuery<br>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
                         </div>
                       </div>
                 </div>
@@ -225,9 +414,32 @@
                     <div class="card mx-auto mx-md-0 my-3" style="width: 18rem;">
                         <img class="card-img-top" src="assets/images/giftastic.png" alt="GIFtastic">
                         <div class="card-body">
-                          <h5 class="card-title">GIFtastic</h5>
-                          <p class="card-text">Add new Pok&eacute;mon GIFs to GIFtastic!</p>
-                          <a href="https://eferri222.github.io/GifTastic/" class="btn btn-primary" target="blank">Project Link</a>
+                            <h5 class="card-title">GIFtastic</h5>
+                            <p class="card-text">Add new Pok&eacute;mon GIFs to GIFtastic!</p>
+                            <a href="https://eferri222.github.io/GifTastic/" class="btn btn-primary" target="blank">Project Link</a>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#GIFtasticModal">
+                                More Info
+                            </button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="GIFtasticModal" tabindex="-1" role="dialog" aria-labelledby="GIFtasticModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="GIFtasticModalLabel">GIFtastic Tech Info</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                    Technologies used: HTML, CSS, Bootstrap 3, JavaScript, jQuery<br>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
                         </div>
                       </div>
                 </div>
@@ -236,9 +448,32 @@
                     <div class="card mx-auto mx-md-0 my-3" style="width: 18rem;">
                         <img class="card-img-top" src="assets/images/triviagame.jpeg" alt="Trivia Game">
                         <div class="card-body">
-                          <h5 class="card-title">Trivia Game</h5>
-                          <p class="card-text">A timed Star Wars trivia game. May the Force be with you.</p>
-                          <a href="https://eferri222.github.io/TriviaGame/" class="btn btn-primary" target="blank">Project Link</a>
+                            <h5 class="card-title">Trivia Game</h5>
+                            <p class="card-text">A timed Star Wars trivia game. May the Force be with you.</p>
+                            <a href="https://eferri222.github.io/TriviaGame/" class="btn btn-primary" target="blank">Project Link</a>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#TriviaGameModal">
+                                More Info
+                            </button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="TriviaGameModal" tabindex="-1" role="dialog" aria-labelledby="TriviaGameModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="TriviaGameModalLabel">Trivia Game Tech Info</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                    Technologies used: HTML, CSS, JavaScript, jQuery<br>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
                         </div>
                       </div>
                 </div>
